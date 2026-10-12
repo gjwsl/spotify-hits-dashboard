@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_DIR = Path(__file__).parent
+DATA_DIR = Path(__file__).parent / "data"
 
 
 @st.cache_data
